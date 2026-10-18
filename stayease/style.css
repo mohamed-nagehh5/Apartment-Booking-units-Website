@@ -1,0 +1,96 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f4;
+    color: #333;
+}
+
+/* Brand */
+.brand-color {
+    color: #315c55;
+}
+
+/* Buttons */
+.main-btn {
+    background-color: #315c55;
+    color: white;
+    border: 1px solid #315c55;
+}
+
+.main-btn:hover {
+    background-color: #427a70;
+    color: white;
+    border-color: #427a70;
+}
+
+/* Home */
+.home {
+    min-height: 420px;
+    background-color: #e7efeb;
+    padding: 80px 0;
+}
+
+.home h1 {
+    color: #315c55;
+}
+
+.home p {
+    color: #666;
+}
+
+/* Section Titles */
+.section-title {
+    color: #315c55;
+}
+
+/* Apartments */
+.apartments-section {
+    background-color: #f7f7f4;
+}
+
+.apartment-img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-title,
+.price {
+    color: #315c55;
+}
+
+/* Forms */
+.form-section {
+    padding: 50px 0;
+    min-height: 75vh;
+}
+
+.form-section .card {
+    border-radius: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #315c55;
+    box-shadow: 0 0 0 0.2rem rgba(49, 92, 85, 0.15);
+}
+
+.back-link {
+    color: #315c55;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #315c55;
+    color: white;
+}
