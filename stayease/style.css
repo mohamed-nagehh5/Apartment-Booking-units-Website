@@ -94,3 +94,23 @@ footer {
     background-color: #315c55;
     color: white;
 }
+.hero {
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 20px;
+    color: white;
+    text-align: center;
+}
+/* Navbar hover effect */
+.navbar .nav-link {
+    transition: 0.3s;
+    border-radius: 5px;
+}
+/* ايفيكت في الnavbar */
+.navbar .nav-link:hover {
+    color: #315c55;
+    background-color: #e7efeb;
+    transform: translateY(-3px);
+}
