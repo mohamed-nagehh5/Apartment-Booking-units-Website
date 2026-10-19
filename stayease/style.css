@@ -1,116 +1,52 @@
 
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f4;
-    color: #333;
-}
-
-/* Brand */
-.brand-color {
-    color: #315c55;
-}
+/* Base & Colors */
+body { font-family: Arial, sans-serif; background-color: #f7f7f4; color: #333; }
+.brand-color, .section-title, .card-title, .price, .back-link, .home h1 { color: #315c55; }
 
 /* Buttons */
-.main-btn {
-    background-color: #315c55;
-    color: white;
-    border: 1px solid #315c55;
-}
+.main-btn { background-color: #315c55; color: #fff; border: 1px solid #315c55; }
+.main-btn:hover { background-color: #427a70; color: #fff; border-color: #427a70; }
 
-.main-btn:hover {
-    background-color: #427a70;
-    color: white;
-    border-color: #427a70;
-}
+/* Sections & Hero */
+.home { min-height: 420px; background-color: #e7efeb; padding: 80px 0; }
+.home p { color: #666; }
+.hero { background: url("./background.jpg") center/cover no-repeat; padding: 120px 20px; color: #fff; text-align: center; }
+.apartments-section { background-color: #f7f7f4; }
 
-/* Home */
-.home {
-    min-height: 420px;
-    background-color: #e7efeb;
-    padding: 80px 0;
-}
+/* Cards & Forms */
+.card { border-radius: 8px; overflow: hidden; }
+.apartment-img { height: 220px; object-fit: cover; }
+.form-section { padding: 50px 0; min-height: 75vh; }
+.form-section .card { border-radius: 10px; }
+.form-control:focus, .form-select:focus { border-color: #315c55; box-shadow: 0 0 0 0.2rem rgba(49, 92, 85, 0.15); }
+.back-link:hover { text-decoration: underline; }
 
-.home h1 {
-    color: #315c55;
-}
+/* Navbar Effects & Footer */
+.navbar .nav-link { transition: 0.3s; border-radius: 5px; }
+.navbar .nav-link:hover { color: #315c55; background-color: #e7efeb; transform: translateY(-3px); }
+footer { background-color: #315c55; color: #fff; }
 
-.home p {
-    color: #666;
-}
+<!--padge2 -->
+<!--mohamed nageh -->
 
-/* Section Titles */
-.section-title {
-    color: #315c55;
-}
-
-/* Apartments */
-.apartments-section {
-    background-color: #f7f7f4;
-}
-
-.apartment-img {
-    height: 220px;
-    object-fit: cover;
-}
-
-.card {
-    border-radius: 8px;
+unit-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
     overflow: hidden;
 }
 
-.card-title,
-.price {
-    color: #315c55;
+.unit-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12) !important;
 }
 
-/* Forms */
-.form-section {
-    padding: 50px 0;
-    min-height: 75vh;
+.unit-img {
+    height: 200px;
+    object-fit: cover;
 }
 
-.form-section .card {
-    border-radius: 10px;
-}
-
-.form-control:focus,
-.form-select:focus {
-    border-color: #315c55;
-    box-shadow: 0 0 0 0.2rem rgba(49, 92, 85, 0.15);
-}
-
-.back-link {
-    color: #315c55;
-    text-decoration: none;
-}
-
-.back-link:hover {
-    text-decoration: underline;
-}
-
-/* Footer */
-footer {
-    background-color: #315c55;
-    color: white;
-}
-.hero {
-    background-image: url("./background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 120px 20px;
-    color: white;
-    text-align: center;
-}
-/* Navbar hover effect */
-.navbar .nav-link {
-    transition: 0.3s;
-    border-radius: 5px;
-}
-/* ايفيكت في الnavbar */
-.navbar .nav-link:hover {
-    color: #315c55;
-    background-color: #e7efeb;
-    transform: translateY(-3px);
+.badge {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+    border-radius: 20px;
 }
